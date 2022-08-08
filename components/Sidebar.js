@@ -15,7 +15,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className="hidden sm:flex flex-col p-2 xl:items-start   fixed h-full xl:ml-24">
+    <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full xl:ml-24">
       {/* Twiter Logo */}
       <div className="hoverEffect p-0 hover:bg-blue-100 xl:px-1">
         <Image
@@ -48,7 +48,7 @@ export default function Sidebar() {
 
       <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start mt-auto">
         <img
-          src="https://avatars.githubusercontent.com/u/71052435?v=4"
+          src="https://www.redhat.com/cms/managed-files/tux-327x360.png"
           alt="user-img"
           className="h-10 w-10 rounded-full xl:mr-2"
         ></img>
