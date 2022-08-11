@@ -9,7 +9,7 @@ import {
 
 export default function Post({ post }) {
   return (
-    <div className="flex p-3 cursor-pointer border-b border-gray-200">
+    <div className="flex p-3 ml-8 cursor-pointer border-b border-gray-200">
       {/* user image */}
       <img
         className="h-11 w-11 rounded-full mr-4"
